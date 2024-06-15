@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+   background-color: rgb(189, 230, 233);
+}
+.main{
+    height: 23em;
+    width: 70em;
+    background-color: rgb(198, 234, 230);
+    margin: auto;
+    border-radius: 100px 0px 100px 0px;
+    padding: 50px 25px 25px 25px;
+    display: flex;
+    text-align: center;
+}
+.main:hover{
+    border-radius:  0px 100px 0px 100px;
+}
+.nav-bar{
+    background-color: rgb(169, 227, 228);
+    height:5em;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+h1{
+    text-align: start;
+    font-weight: 20em;
+    font-size: 3em;
+    color: rgb(2, 58, 62);
+} 
+
+button :active {
+    box-shadow: 2px 2px 2px aliceblue;
+    border: 2px solid white;
+    color: black;
+    
+}
+button {
+    color: aliceblue;
+    height: 3em;
+    width: 3em;
+    background-color: rgb(180, 227, 227);
+    justify-content: space-around;
+    align-self: center;
+    border: 1px solid white;
+    display: flex;
+}
+img {
+    height: 3em;
+    width: 3em;
+    align-self:  center;
+}
+
+#quote {
+    padding: 100px 100px 100px 100px ;
+    text-align: center;
+}
+section>button {
+    margin: auto;
+    padding: 0;
+    height: 4em;
+    width: 7.5em;
+    border-radius: 10px 10px 10px 10px;
+}
+section>button:active{
+    box-shadow: 2px 2px 2px white;
+    border: 2px solid white;
+}
